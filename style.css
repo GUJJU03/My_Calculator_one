@@ -5,7 +5,6 @@
     font-family: 'Poppins' , sans-serif;
 }
 .container{
-    
     height: 100vh;
     width: 100%;
     background-color: #e3f9ff;
@@ -51,6 +50,21 @@ form .display input{
     padding: 12px;
     border: 1px solid black;
 }
-.button{
-    
+@media only screen and (max-width:440px){
+    .calc form input{
+        height: 30px;
+        width: 30px;
+        font-size: 10px;
+        margin: 5px;
+        border-radius:10px;
+    }
+}
+@media only screen and (max-width:240px){
+    .calc form input{
+        height: 15px;
+        width: 15px;
+        font-size: 5px;
+        margin: 2px;
+        border-radius:5px;
+    }
 }
