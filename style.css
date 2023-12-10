@@ -52,10 +52,17 @@ form .display input{
 }
 @media only screen and (max-width:440px){
     .calc form input{
+<<<<<<< HEAD
         height: 65px;
         width: 60px;
         font-size: 16px;
         margin: 8px;
+=======
+        height: 60px;
+        width: 55px;
+        font-size: 16px;
+        margin: 5px;
+>>>>>>> 492502b47c1ea9c9b1a393d389145fa1943a039c
         border-radius:10px;
     }
 }
